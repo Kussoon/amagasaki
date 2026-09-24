@@ -2,6 +2,8 @@
 <html lang="ja"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#eef7fa">
+<meta name="description" content="尼崎市の140町名を、町名入り全域図と漢字・読み仮名検索で学べる無料の地理学習サイトです。">
+<link rel="canonical" href="https://kussoon.com/amagasaki/">
 <title>尼崎市 町名記憶ゲーム</title>
 <style>
 *{box-sizing:border-box}html,body{margin:0;background:#eef7fa;color:#29424c;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans",Meiryo,sans-serif}
@@ -18,24 +20,16 @@ a.card:hover,a.card:focus-visible{border-color:#287f93;background:#f0fafc}a.card
 .arrow{font-size:22px;color:#5b99a8;font-weight:900}.soon{display:inline-block;border-radius:999px;padding:5px 9px;background:#eef0f1;color:#657478;white-space:nowrap;font-size:11px;font-weight:900}
 button.card:disabled{opacity:.75;cursor:default;background:#f8fafb;box-shadow:none}
 .note{margin:18px 2px 0;padding:11px;background:#f0f6f8;color:#60777d;border-radius:12px;line-height:1.55;text-align:center;font-size:12px}
-footer{text-align:center;font-size:11px;color:#7d8c90;margin:17px 0 5px}
+.future{margin-top:18px;padding:13px 15px;border:1px solid #d4e3e7;border-radius:13px;background:#f8fbfc;color:#60777d;font-size:12px;line-height:1.7}.future strong{display:block;color:#337583;font-size:13px;margin-bottom:2px}
+footer{text-align:center;font-size:11px;color:#7d8c90;margin:17px 0 5px}.site-links{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 12px;margin:0 0 10px}.site-links a{color:#3c7180;text-decoration:underline;text-underline-offset:2px}
 @media(min-width:560px){.grid.two{grid-template-columns:1fr 1fr}.grid.two .card{grid-template-columns:40px 1fr auto}.grid.two .icon{width:40px;height:40px;font-size:23px}.grid.two .text strong{font-size:15px}}
 </style></head><body><main class="wrap">
 <header><h1>尼崎市 町名記憶ゲーム</h1><p class="tagline">尼崎市の町を、地図で楽しく覚えよう！</p><div class="character" aria-label="案内役のフクロウ">🦉</div></header>
 <nav class="menu" aria-label="学習メニュー">
 <section class="section"><div class="section-head"><span class="badge">公開中</span>まずは地図で確認</div>
 <a class="card feature" href="all-area-labeled.html"><span class="icon">🗺️</span><span class="text"><strong>町名入り全域図</strong><small>尼崎市全域の町名を一度に確認</small></span><span class="arrow" aria-hidden="true">›</span></a></section>
-<section class="section"><div class="section-head">通常モード｜地域から覚える</div><div class="grid">
-<button class="card" type="button" disabled><span class="icon">🧭</span><span class="text"><strong>地域の場所を覚える</strong><small>地域の名前と大まかな位置を確認</small></span><span class="soon">作成中</span></button>
-<button class="card" type="button" disabled><span class="icon">🏠</span><span class="text"><strong>地域ごとに町名を覚える</strong><small>地域を選んで町名を学習</small></span><span class="soon">作成中</span></button></div></section>
-<section class="section"><div class="section-head">通常モード｜全域クイズ</div><div class="grid two">
-<button class="card" type="button" disabled><span class="icon">📍</span><span class="text"><strong>町名から場所を当てる</strong><small>地図上の位置を回答</small></span><span class="soon">作成中</span></button>
-<button class="card" type="button" disabled><span class="icon">✨</span><span class="text"><strong>光った町名を当てる</strong><small>町名を選択肢から回答</small></span><span class="soon">作成中</span></button></div></section>
-<section class="section"><div class="section-head">マニアックモード｜もっと詳しく</div><div class="grid">
-<button class="card" type="button" disabled><span class="icon">🔥</span><span class="text"><strong>丁目まで詳しく学ぶ</strong><small>丁目の違いも覚える</small></span><span class="soon">作成中</span></button></div></section>
-<section class="section"><div class="section-head">地図で確認｜ほかの見方</div><div class="grid two">
-<a class="card" href="town-search.html"><span class="icon">🔍</span><span class="text"><strong>町名から場所を探す</strong><small>漢字・読み仮名から検索して位置を確認</small></span><span class="arrow" aria-hidden="true">›</span></a>
-<button class="card" type="button" disabled><span class="icon">🛣️</span><span class="text"><strong>交通入り全域図</strong><small>鉄道や主な道路も確認</small></span><span class="soon">作成中</span></button>
-<button class="card" type="button" disabled><span class="icon">⬜</span><span class="text"><strong>白地図で町名を確認</strong><small>気になる場所をタップ</small></span><span class="soon">作成中</span></button></div></section>
+<section class="section"><div class="section-head"><span class="badge">公開中</span>町名から探す</div>
+<a class="card" href="town-search.html"><span class="icon">🔍</span><span class="text"><strong>町名から場所を探す</strong><small>漢字・読み仮名から検索して位置を確認</small></span><span class="arrow" aria-hidden="true">›</span></a></section>
 </nav><p class="note">通常モードでは、一丁目・二丁目などは同じ町名としてまとめます。</p>
-<footer>Ver. 0.4.0（確認版）<br>© KUSSOON 2026 All Rights Reserved.</footer></main></body></html>
+<aside class="future"><strong>今後追加予定</strong>地域別学習、全域クイズ、丁目別学習、交通入り全域図などを順次追加する予定です。</aside>
+<footer><nav class="site-links" aria-label="サイト共通情報"><a href="/about/">このサイトについて</a><a href="/privacy/">プライバシーポリシー</a><a href="/sources/">データ出典</a><a href="/terms/">利用上の注意</a></nav>Ver. 0.4.0<br>© KUSSOON 2026 All Rights Reserved.</footer></main></body></html>
